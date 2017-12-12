@@ -9,6 +9,6 @@ public class IndexController {
 
 	@RequestMapping("/show.do")
 	public String show(){
-		return "index";
+		return "console";
 	}
 }
