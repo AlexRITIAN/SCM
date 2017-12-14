@@ -11,4 +11,9 @@ public class IndexController {
 	public String show(){
 		return "console";
 	}
+
+	@RequestMapping("/server.do")
+	public String server(){
+		return "serverStatus";
+	}
 }
